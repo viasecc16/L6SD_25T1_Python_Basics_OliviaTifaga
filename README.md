@@ -28,6 +28,6 @@ Setup:
 
 
 Running Exercise 
-- Clone repository 
-
+- Clone repository ( https://github.com/viasecc16/L6SD_25T1_Python_Basics_OliviaTifaga.git)
+- 
 
