@@ -1,0 +1,79 @@
+print("Hello, World!")
+num=10
+price=99.99
+name= "alice"
+is_active = True
+#ARITHMETIC OPERATIONS
+a = 10
+b = 5
+print(a+b) #addition
+print(a-b) #subtraction
+print(a*b) #multiplecation
+print(a/b) #division
+print(a%b)#modulo which is a remainder
+print(a**b) #exponentioation
+ 
+#COMPARISION OPERATORS
+a = 10
+b = 5
+print(a == b)  # Equal to
+print(a != b)  # Not equal to
+print(a > b)   # Greater than
+print(a < b)   # Less than
+ 
+#LOGICAL OPERATION
+print(True and False)  # Logical AND
+print(True or False)   # Logical OR
+print(not True)        # Logical NOT
+ 
+ 
+ 
+#IF-ELSE STATEMENT
+x = 20
+if x > 10:
+    print("x is greater than 10")
+else:
+    print("x is less than or equal to 10")
+ 
+#ELIF STATEMENT  
+x = 20
+if x > 30:
+    print("x is greater than 30")
+elif x > 10:
+    print("x is greater than 10 but less than or equal to 30")
+else:
+    print("x is 10 or less")
+ 
+#LOOPING
+for i in range(5):
+    print(i)  # Prints 0, 1, 2, 3, 4
+ 
+count = 0
+while count < 5:
+    print(count)
+    count += 1  # Increment the count by 1
+ 
+#DEFINITION FUNCTIONSSSS
+def greet(name):
+    print(f"Hello, {name}!")
+ 
+greet("mele") #output would be , Hello mele
+ 
+#RETURN VALUES
+def add(a, b):
+    return a + b
+ 
+result = add(10, 5)
+print(result)  # Output: 15
+ 
+#creating and accessing lists
+fruits = ["apple", "banana", "cherry"]
+print(fruits[0])  # Output: should be apple
+ 
+fruits.append("orange")  # Adds "orange" to the end of the list
+fruits[1] = "blueberry"   # Changes the second item (banana) to blueberry
+print(fruits)  # Output: ['apple', 'blueberry', 'cherry', 'orange']
+ 
+for fruit in fruits:
+    print(fruit)
+ 
